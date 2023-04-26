@@ -12,6 +12,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
 a {
@@ -67,4 +69,12 @@ body {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.main {
+  display: flex;
+}
+
+.mainSection {
+  margin: 50px auto;
 }
